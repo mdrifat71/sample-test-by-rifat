@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  padding: 10px;
+  margin: 10px auto;
+}
+.card {
+  padding: 10px;
+  border: 1px solid #d3d3d3;
+  margin-bottom: 15px;
+}
+
+.options {
+  margin: 15px 0;
+}
+
+.option {
+  padding: 5px;
+}
+
+label {
+  margin-left: 5px;
+}
+.btn {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.correct {
+  background: #b2e6b4;
+}
+
+.incorrect {
+  background: rgb(228, 181, 181);
+}
+
+.unsolved {
+  background: rgb(228, 181, 181);
+  padding: 5px;
+}
+
+.timer {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.result-wraper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid #d3d3d3;
+}
+.result {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.correct-count-wraper {
+  padding: 0 20px;
+  text-align: center;
+  color: green;
+}
+
+.incorrect-count-wraper {
+  padding: 0 20px;
+  text-align: center;
+  color: red;
+}
